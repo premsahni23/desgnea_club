@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081525">
+  <meta name="description" content="Join the founding Desgnea Club team at ASD. Explore 21 open positions across 8 teams.">
+  <title>Desgnea Club × ASD — Join the founding team</title>
+  <link rel="preload" href="assets/fonts/OriginSans-Bold.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/fonts/doner-regulartext.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/hero-heading.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="nav-logo" href="#top" aria-label="ASD × Desgnea Club, back to top">
+          <img src="assets/asd-desgnea-club.png" width="2048" height="338" alt="ASD × Desgnea Club">
+        </a>
+        <button class="nav-register register-action" type="button">Register Now</button>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="mobile-menu" id="mobile-menu" hidden>
+          <button class="register-action" type="button">Register Now <span aria-hidden="true">↗</span></button>
+          <a href="#questions">Questions, answered</a>
+        </div>
+      </nav>
+
+      <div class="hero-copy">
+        <p class="eyebrow">DESGNEA BRINGS YOU</p>
+        <h1 id="hero-title"><span class="visually-hidden">What if your next big opportunity starts here?</span><img class="hero-title-art" src="assets/hero-heading.png" width="583" height="218" alt="" fetchpriority="high"></h1>
+        <p class="hero-description">Join the founding Desgnea team and shape how ASD students learn, create, connect and grow—across 21 open positions and 8 teams.</p>
+        <button class="hero-register register-action" type="button">Register Now <span aria-hidden="true">↗</span></button>
+        <p class="form-message" id="form-message" role="status" aria-live="polite" hidden></p>
+      </div>
+    </section>
+
+    <section class="faq" id="questions" aria-labelledby="faq-title">
+      <div class="faq-inner">
+        <div class="faq-intro">
+          <p class="section-kicker">BEFORE YOU APPLY</p>
+          <h2 id="faq-title">Questions,<br>answered.</h2>
+          <p>The details that matter before choosing a position.</p>
+        </div>
+
+        <div class="faq-list" aria-label="Frequently asked questions">
+          <details name="club-faq" open>
+            <summary>Can I apply for President or Vice President?<span class="chevron" aria-hidden="true"></span></summary>
+            <div class="faq-answer">No. These two roles are part of the leadership structure but are not open in this registration.</div>
+          </details>
+          <details name="club-faq">
+            <summary>Can I apply for more than one position?<span class="chevron" aria-hidden="true"></span></summary>
+            <div class="faq-answer">Choose one position that best fits your interests when you apply. The team can discuss other suitable roles with you during the selection process.</div>
+          </details>
+          <details name="club-faq">
+            <summary>Do I need professional experience?<span class="chevron" aria-hidden="true"></span></summary>
+            <div class="faq-answer">No. Tell us what you enjoy doing, what you have tried so far, and what you would like to learn.</div>
+          </details>
+          <details name="club-faq">
+            <summary>Can students from every ASD year apply?<span class="chevron" aria-hidden="true"></span></summary>
+            <div class="faq-answer">Yes. Students from every ASD year can apply for the open team positions.</div>
+          </details>
+          <details name="club-faq">
+            <summary>Does joining guarantee an internship or certificate?<span class="chevron" aria-hidden="true"></span></summary>
+            <div class="faq-answer">No. Joining the club does not guarantee an internship or certificate. Any opportunities will be communicated separately.</div>
+          </details>
+          <details name="club-faq">
+            <summary>Can non-team members join club activities?<span class="chevron" aria-hidden="true"></span></summary>
+            <div class="faq-answer">Yes. ASD students can take part in club activities that are announced as open to everyone.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <img src="assets/asd-desgnea-club.png" width="2048" height="338" alt="ASD × Desgnea Club">
+      <p>Faculty-guided. Student-led. Built for ASD.<br>All appointments remain subject to department confirmation</p>
+    </div>
+  </footer>
+</body>
+</html>
